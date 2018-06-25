@@ -12,7 +12,7 @@ A deep learning network to colorize black and white images. The dataset used for
 
 2. Add a new notebook to Google Colaboratory.
 
-3. Upload the [stock_analyser.ipynb](https://github.com/Rishabhmishra328/deep_colorize/blob/master/Deep_Colorize.ipynb)
+3. Upload the [Deep_Colorize.ipynb](https://github.com/Rishabhmishra328/deep_colorize/blob/master/Deep_Colorize.ipynb)
 
 4. Select runtime as GPU to use GPU options through, **Runtime > Change runtime type > Hardware accelerator > GPU**.
 
@@ -22,7 +22,7 @@ When the execution is done, the model and the result will get downloaded to your
 
 # Model
 
-The top end before the branching is used for feature extraction in the image, which is later used to seperately predict red, green blue channels.
+The top end before the branching is used for feature extraction from the image, which is later seperated to predict the red, green blue channels.
 
 ![Model](https://github.com/Rishabhmishra328/deep_colorize/blob/master/colorize_model.png)
 
